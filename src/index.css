@@ -1,13 +1,1468 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .group-150 {
+    background-color: #222C3C;
+    height: 1133px;
+    left: 0;
+    position: absolute;
+    top: 905px;
+    width: 1440px;
+  }
+  
+  .rectangle-1 {
+    background-color: #1B90FF;
+    height: 740px;
+    left: 0;
+    position: absolute;
+    top: 171px;
+    width: 1440px;
+  }
+  
+  .rectangle-1.rectangle-83 {
+    height: 1068px;
+    top: 220px;
+  }
+  
+  .rectangle-1.rectangle-187 {
+    background-color: #F4C247;
+    height: 160px;
+    top: 60px;
+  }
+  
+  .desktop-9 {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 9190px;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .overlap-group12 {
+    height: 2038px;
+    margin-top: -171px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .rectangle-87 {
+    background-color: #1B90FF;
+    height: 72px;
+    left: 189px;
+    position: absolute;
+    top: 171px;
+    width: 1063px;
+  }
+  
+  .our-mission {
+    color: rgba(234, 234, 234, 0.5);
+    font-family: var(--font-family-lato);
+    font-size: 16px;
+    font-weight: 900;
+    left: 667px;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 1159px;
+    white-space: nowrap;
+    line-height: 170%;
+  }
+  
+  .text-5 {
+    color: 
+  transparent;
+    font-family: var(--font-family-spoqa_han_sans_neo-bold);
+    font-size: var(--font-size-xxxl2);
+    font-weight: 700;
+    left: 502px;
+    letter-spacing: -0.64px;
+    line-height: 44.8px;
+    position: absolute;
+    text-align: center;
+    top: 1210px;
+  }
+  
+  .span {
+    letter-spacing: -0.20px;
+  }
+  
+  .span1 {
+    color: var(--ronchi);
+    letter-spacing: -0.20px;
+  }
+  
+  .text-12 {
+    color: #FFFFFF;
+    font-family: var(--font-family-spoqa_han_sans_neo-bold);
+    font-size: 40px;
+    font-weight: 700;
+    left: 488px;
+    letter-spacing: -0.80px;
+    line-height: 56.0px;
+    position: absolute;
+    text-align: center;
+    top: 349px;
+  }
+  
+  .text-13 {
+    color: #FFFFFF;
+    font-family: var(--font-family-spoqa_han_sans_neo-medium);
+    font-size: 12px;
+    left: 503px;
+    position: absolute;
+    top: 503px;
+    font-weight: 500;
+    letter-spacing: -0.48px;
+    line-height: 38.4px;
+    min-height: 76px;
+    min-width: 436px;
+    text-align: center;
+  }
+  
+  .group-152 {
+    height: 29px;
+    left: 690px;
+    position: absolute;
+    top: 1445px;
+    width: 62px;
+  }
+  
+  .rectangle-90 {
+    background-color: #131A25;
+    border-radius: 8px;
+    height: 550px;
+    left: 785px;
+    position: absolute;
+    top: 1376px;
+    width: 440px;
+  }
+  
+  .text-15 {
+    left: 832px;
+    letter-spacing: -0.54px;
+    line-height: 28.8px;
+    position: absolute;
+    text-align: center;
+    top: 1416px;
+  }
+  
+  .span0 {
+    color: #EAEAEA;
+    font-size: 18px;
+    letter-spacing: -0.10px;
+  }
+  
+  .span1-1 {
+    color: #F4C247;
+    font-family: var(--font-family-spoqa_han_sans_neo-regular);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    letter-spacing: -0.10px;
+  }
+  
+  .line-14 {
+    height: 1px;
+    left: 785px;
+    position: absolute;
+    top: 1535px;
+    width: 440px;
+  }
+  
+  .overlap-group8 {
+    align-items: center;
+    background-color: #131A25;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    left: 219px;
+    min-height: 550px;
+    padding: 47.5px 0;
+    position: absolute;
+    top: 1376px;
+    width: 440px;
+  }
+  
+  .text_label {
+    letter-spacing: -0.54px;
+    line-height: 28.8px;
+    margin-top: 6px;
+    min-height: 58px;
+    min-width: 322px;
+    text-align: center;
+  }
+  
+  .span1-2 {
+    color: #EAEAEA;
+    /* font-family: var(--font-family-spoqa_han_sans_neo-bold); */
+    font-size: 18px;
+    font-weight: 700;
+
+    width: 322px;
+    height: 58px;
+    left: 278px;
+    top: 1259px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+
+    line-height: 160%;
+    /* or 29px */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+  }
+  
+  .line-13 {
+    height: 1px;
+    margin-top: 50px;
+    width: 440px;
+  }
+  
+  .group-308 {
+    height: 304px;
+    margin-left: 3.0px;
+    margin-top: 36px;
+    width: 351px;
+  }
+  
+  .vector {
+    height: 15px;
+    left: 1055px;
+    position: absolute;
+    top: 912px;
+    width: 12px;
+  }
+  
+  .group-321 {
+    height: 272px;
+    left: 844px;
+    position: absolute;
+    top: 1592px;
+    width: 335px;
+  }
+  
+  .mask-group {
+    height: 437px;
+    left: 13px;
+    position: absolute;
+    top: 0;
+    width: 553px;
+  }
+  
+  .group-342 {
+    height: 461px;
+    left: 271px;
+    position: absolute;
+    top: 646px;
+    width: 900px;
+  }
+  
+  .group-1 {
+    height: 49px;
+    left: 630px;
+    position: absolute;
+    top: 223px;
+    width: 180px;
+  }
+  
+  .rectangle-201 {
+    background-color: #c4c4c4;
+    height: 65px;
+    left: 646px;
+    position: absolute;
+    top: 1376px;
+    width: 74px;
+  }
+  
+  .business {
+    letter-spacing: 0;
+    line-height: 27.2px;
+    margin-left: 16.0px;
+    margin-top: 110px;
+    min-height: 27px;
+    min-width: 76px;
+    text-align: center;
+    text-decoration: underline;
+    white-space: nowrap;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #666666;
+  }
+  
+  .text-4 {
+    letter-spacing: -0.96px;
+    line-height: 44.8px;
+    min-height: 90px;
+    min-width: 454px;
+    text-align: center;
+    margin-left: 16.0px;
+    margin-top: 24px;
+    font-family: "Spoqa Han Sans Neo-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  .overlap-group13 {
+    align-items: center;
+    /* background-image: url(rectangle-141.png); */
+    background-size: 100% 100%;
+    display: flex;
+    height: 360px;
+    justify-content: flex-end;
+    margin-right: 4.0px;
+    margin-top: 64px;
+    min-width: 1064px;
+    padding: 0 32px;
+  }
+  
+  .flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 288px;
+    width: 342px;
+  }
+  
+  .overlap-group3 {
+    align-items: flex-end;
+    background-color: var(--ocean-blue-pearl);
+    border-radius: 100px;
+    display: flex;
+    height: 28px;
+    min-width: 88px;
+    padding: 1px 27px;
+  }
+  
+  .b2-c {
+    letter-spacing: -0.54px;
+    line-height: 25.2px;
+    min-height: 25px;
+    white-space: nowrap;
+  }
+  
+  .text-2 {
+    letter-spacing: -0.84px;
+    line-height: 39.2px;
+    min-height: 117px;
+  }
+  
+  .group-249 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+    margin-top: 94px;
+    min-height: 25px;
+    width: 124px;
+  }
+  
+  .text-2-1 {
+    letter-spacing: -0.48px;
+    line-height: 22.4px;
+    min-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .line-15 {
+    height: 1px;
+    margin-top: 2px;
+    width: 122px;
+  }
+  
+  .overlap-group18 {
+    align-items: flex-start;
+    background-image: url(https://www.figma.com/file/9OqcVRRMye2HyOnEaOKyR8/%EA%B3%BC%EC%A0%9C?node-id=1%3A429);
+    background-size: 100% 100%;
+    display: flex;
+    height: 300px;
+    justify-content: flex-end;
+    margin-left: 348px;
+    min-width: 300px;
+    padding: 10.9px 8px;
+  }
+  
+  .group-373 {
+    height: 52px;
+    width: 146px;
+  }
+  
+  .overlap-group17 {
+    align-items: center;
+    /* background-image: url(rectangle-137.svg); */
+    background-size: 100% 100%;
+    display: flex;
+    height: 360px;
+    justify-content: flex-end;
+    margin-top: 24px;
+    min-width: 1064px;
+    padding: 0 34px;
+  }
+  
+  .flex-col-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 288px;
+    width: 367px;
+  }
+  
+  .overlap-group5 {
+    align-items: flex-end;
+    background-color: 
+  #2b55e4;
+    border-radius: 100px;
+    display: flex;
+    height: 28px;
+    min-width: 88px;
+    padding: 1px 26px;
+  }
+  
+  .b2-b {
+    letter-spacing: -0.54px;
+    line-height: 25.2px;
+    min-height: 25px;
+    min-width: 35px;
+    white-space: nowrap;
+  }
+  
+  .group-243 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 94px;
+    min-height: 25px;
+    width: 113px;
+  }
+  
+  .line-15-1 {
+    height: 1px;
+    margin-top: 2px;
+    width: 111px;
+  }
+  
+  .mask-group-1 {
+    height: 300px;
+    margin-left: 323px;
+    width: 300px;
+  }
+  
+  .overlap-group16 {
+    align-items: flex-start;
+    /* background-image: url(rectangle-139.svg); */
+    background-size: 100% 100%;
+    display: flex;
+    height: 360px;
+    justify-content: flex-end;
+    margin-top: 24px;
+    min-width: 1064px;
+    padding: 22px 34px;
+  }
+  
+  .flex-col-2 {
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 288px;
+    width: 272px;
+  }
+  
+  .overlap-group6 {
+    align-items: flex-end;
+    background-color: 
+  #b0d1ea;
+    border-radius: 100px;
+    display: flex;
+    height: 28px;
+    min-width: 88px;
+    padding: 1px 16px;
+  }
+  
+  .b2-b2-c {
+    letter-spacing: -0.54px;
+    line-height: 25.2px;
+    min-height: 25px;
+    min-width: 56px;
+    white-space: nowrap;
+  }
+  
+  .text-31 {
+    position: absolute;
+    width: 305px;
+    height: 117px;
+    left: 224px;
+    top: 3038px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 140%;
+    /* or 39px */
+
+    letter-spacing: -0.03em;
+
+    color: #222C3C;
+    /* letter-spacing: -0.84px;
+    line-height: 39.2px;
+    min-height: 117px;
+    font-weight: 700;
+    color: var(--ebony-clay);
+    font-family: var(--font-family-spoqa_han_sans_neo-bold);
+    font-size: var(--font-size-xxl2);
+    font-weight: 700;
+    letter-spacing: -0.84px;
+    line-height: 39.2px;
+    margin-top: 24px;
+    min-height: 117px; */
+  }
+  
+  .group-241 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    min-height: 24px;
+    width: 113px;
+  }
+  
+  .text-30 {
+    position: absolute;
+    width: 111px;
+    height: 21.55px;
+    left: 224px;
+    top: 3250px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+
+    color: #222C3C;
+    /* color: var(--ebony-clay);
+    font-family: var(--font-family-spoqa_han_sans_neo-medium);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    letter-spacing: -0.48px;
+    line-height: 22.4px;
+    min-height: 22px;
+    white-space: nowrap; */
+  }
+  
+  .line-15-2 {
+    height: 2px;
+    margin-top: 1px;
+    width: 110px;
+  }
+  
+  .mask-group-2 {
+    height: 300px;
+    margin-left: 422px;
+    width: 300px;
+  }
+  
+  .overlap-group15 {
+    height: 3280px;
+    margin-top: 94px;
+    position: relative;
+    width: 1441px;
+  }
+  
+  .rectangle-78 {
+    height: 2015px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .group-146 {
+    height: 938px;
+    left: 0;
+    position: absolute;
+    top: 2014px;
+    width: 1441px;
+  }
+  
+  .solution {
+    letter-spacing: 0;
+    line-height: 27.2px;
+    min-height: 27px;
+    text-decoration: underline;
+    white-space: nowrap;
+    color: #666666;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 170%;
+
+  }
+  
+  .text-1 {
+    left: 188px;
+    letter-spacing: -0.64px;
+    line-height: 48px;
+    position: absolute;
+    top: 196px;
+  }
+  
+  .text-2-2 {
+    left: 552px;
+    position: absolute;
+    text-align: center;
+    top: 1209px;
+    min-height: 96px;
+    min-width: 338px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+    letter-spacing: -0.02em;
+
+    color: #222C3C;
+  }
+  
+  .history {
+    color: rgba(234, 234, 234, 0.5);
+    font-weight: 900;
+    left: 684px;
+    letter-spacing: 0;
+    /* line-height: 28.9px; */
+    position: absolute;
+    text-decoration: underline;
+    top: 2135px;
+    white-space: nowrap;
+    width: 73px;
+    height: 29px;
+    /* top: 5539px; */
+
+    font-family: Lato;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 170%;
+    /* identical to box height, or 29px */
+  }
+  
+  .text-3 {
+    left: 526px;
+    letter-spacing: -0.96px;
+    /* line-height: 44.8px; */
+    position: absolute;
+    text-align: center;
+    top: 2188px;
+
+    width: 450px;
+    height: 90px;
+    /* top: 5592px; */
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+    /* or 45px */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+  }
+  
+  .group-315 {
+    align-items: flex-start;
+    background-color: #131A25;
+    border-radius: 8px;
+    display: flex;
+    height: 210px;
+    justify-content: flex-end;
+    left: 188px;
+    min-width: 1064px;
+    padding: 53px 89px;
+    position: absolute;
+    top: 2350px;
+
+    position: absolute;
+    width: 1064px;
+    /* top: 5754px; */
+
+    mix-blend-mode: normal;
+  }
+  
+  .group-221 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 103px;
+    width: 108px;
+  }
+  
+  .text-7 {
+    letter-spacing: -0.96px;
+    line-height: 67.2px;
+    margin-right: 4.0px;
+    min-height: 67px;
+    min-width: 84px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .text-6 {
+    letter-spacing: -0.54px;
+    line-height: 32.4px;
+    margin-right: 4.0px;
+    margin-top: 4px;
+    min-height: 32px;
+    min-width: 104px;
+    white-space: nowrap;
+  }
+  
+  .group-222 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 225px;
+    min-height: 103px;
+    width: 176px;
+  }
+  
+  .text-9 {
+    letter-spacing: -0.96px;
+    line-height: 67.2px;
+    margin-right: 4.0px;
+    min-height: 67px;
+    min-width: 150px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .text-8 {
+    letter-spacing: -0.54px;
+    line-height: 32.4px;
+    margin-right: 4.0px;
+    margin-top: 4px;
+    min-height: 32px;
+    min-width: 172px;
+    white-space: nowrap;
+  }
+  
+  .group-223 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 136px;
+    min-height: 103px;
+    width: 217px;
+  }
+  
+  .text-11 {
+    letter-spacing: -0.96px;
+    line-height: 67.2px;
+    margin-right: 4.0px;
+    min-height: 67px;
+    min-width: 127px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .text-10 {
+    letter-spacing: -0.54px;
+    line-height: 32.4px;
+    margin-right: 4.0px;
+    margin-top: 4px;
+    min-height: 32px;
+    min-width: 213px;
+    white-space: nowrap;
+  }
+  
+  .overlap-group2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 680px;
+    padding: 74px 48px;
+    top: 2600px;
+    width: 1064px;
+
+    position: absolute;
+    width: 1064px;
+    height: 680px;
+    left: 188px;
+    /* top: 6004px; */
+
+    background: #FFFFFF;
+    box-shadow: 3px 4px 10px 3px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+  }
+  
+  .press {
+    letter-spacing: 0;
+    line-height: 30.6px;
+    min-height: 31px;
+    min-width: 54px;
+    text-align: center;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .text-21 {
+    letter-spacing: -0.96px;
+    line-height: 44.8px;
+    margin-left: 1.0px;
+    margin-top: 22px;
+    min-height: 45px;
+    min-width: 299px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .group-231 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 76px;
+    min-height: 332px;
+    width: 952px;
+  }
+  
+  .flex-row-1 {
+    align-items: center;
+    display: flex;
+    height: 31px;
+    margin-left: 1px;
+    min-width: 935px;
+  }
+  
+  .gs25 {
+    letter-spacing: -0.54px;
+    line-height: 30.6px;
+    min-height: 31px;
+    min-width: 311px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .date {
+    letter-spacing: -0.48px;
+    line-height: 27.2px;
+    margin-left: 544px;
+    margin-top: 2.0px;
+    min-height: 27px;
+    min-width: 80px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .line {
+    height: 1px;
+    margin-top: 28px;
+    width: 936px;
+  }
+  
+  .flex-row {
+    align-items: center;
+    display: flex;
+    height: 31px;
+    margin-left: 1px;
+    margin-top: 32px;
+    min-width: 935px;
+  }
+  
+  .text-22 {
+    letter-spacing: -0.54px;
+    line-height: 30.6px;
+    min-height: 31px;
+    min-width: 454px;
+    white-space: nowrap;
+  }
+  
+  .date-1 {
+    letter-spacing: -0.48px;
+    line-height: 27.2px;
+    margin-left: 401px;
+    min-height: 27px;
+    min-width: 80px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .gs25-1 {
+    letter-spacing: -0.54px;
+    line-height: 30.6px;
+    min-height: 31px;
+    min-width: 417px;
+    white-space: nowrap;
+  }
+  
+  .date-2 {
+    letter-spacing: -0.48px;
+    line-height: 27.2px;
+    margin-left: 438px;
+    min-height: 27px;
+    min-width: 80px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .text-23 {
+    letter-spacing: -0.54px;
+    line-height: 30.6px;
+    min-height: 31px;
+    min-width: 418px;
+    white-space: nowrap;
+  }
+  
+  .date-3 {
+    letter-spacing: -0.48px;
+    line-height: 27.2px;
+    margin-left: 437px;
+    min-height: 27px;
+    min-width: 80px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .group-container {
+    border-radius: 6px;
+    height: 432px;
+    left: 550px;
+    position: absolute;
+    top: 1352px;
+    width: 340px;
+  }
+  
+  .text-container {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 432px;
+    padding: 32px 24px;
+    position: absolute;
+    top: 0;
+    width: 340px;
+  }
+  
+  .text-26 {
+    letter-spacing: -0.44px;
+    line-height: 33px;
+    margin-top: 212px;
+    min-height: 66px;
+  }
+  
+  .text-27 {
+    letter-spacing: -0.32px;
+    line-height: 25.6px;
+    margin-top: 12px;
+    min-height: 78px;
+  }
+  
+  .group-306 {
+    height: 220px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: 338px;
+  }
+  
+  .overlap-group7 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    left: 914px;
+    min-height: 432px;
+    position: absolute;
+    top: 1352px;
+    width: 340px;
+  }
+  
+  .group {
+    height: 220px;
+    margin-right: 2.0px;
+    width: 338px;
+  }
+  
+  .text-32 {
+    letter-spacing: -0.44px;
+    line-height: 33px;
+    margin-right: 31.0px;
+    margin-top: 24px;
+    min-height: 66px;
+    min-width: 261px;
+  }
+  
+  .text-33 {
+    letter-spacing: -0.32px;
+    line-height: 25.6px;
+    margin-right: 21.0px;
+    margin-top: 12px;
+    min-height: 52px;
+    min-width: 271px;
+  }
+  
+  .rectangle-114 {
+    height: 421px;
+    left: 188px;
+    position: absolute;
+    top: 388px;
+    width: 1064px;
+  }
+  
+  .text-34 {
+    position: absolute;
+    width: 360px;
+    height: 84px;
+    top: 3848px;
+    
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 150%;
+    /* or 42px */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+    left: 560px;
+    letter-spacing: -0.56px;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 444px;
+  }
+  
+  .text-35 {
+    color: #BDE9EB;
+    font-family: var(--font-family-spoqa_han_sans_neo-medium);
+    font-size: 20px;
+    font-weight: 500;
+    left: 568px;
+    letter-spacing: -0.40px;
+    line-height: 32.0px;
+    position: absolute;
+    text-align: center;
+    top: 547px;
+    white-space: nowrap;
+  }
+  
+  .group-363 {
+    height: 461px;
+    left: 273px;
+    position: absolute;
+    top: 632px;
+    width: 896px;
+  }
+  
+  .overlap-group10 {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    left: 188px;
+    min-height: 432px;
+    position: absolute;
+    top: 1352px;
+    width: 340px;
+  }
+  
+  .text-38 {
+    letter-spacing: -0.44px;
+    line-height: 33px;
+    margin-right: 40.0px;
+    margin-top: 24px;
+    min-height: 66px;
+    min-width: 252px;
+  }
+  
+  .text-39 {
+    letter-spacing: -0.32px;
+    line-height: 25.6px;
+    margin-right: 16.0px;
+    margin-top: 12px;
+    min-height: 78px;
+    min-width: 276px;
+  }
+  
+  .overlap-group11 {
+    align-items: flex-start;
+    background-color: var(--sonic-silver);
+    border-radius: 6px;
+    display: flex;
+    height: 56px;
+    left: 592px;
+    min-width: 220px;
+    padding: 15px 59px;
+    position: absolute;
+    top: 1871px;
+  }
+  
+  .text {
+    letter-spacing: -0.34px;
+    min-height: 25px;
+  }
+  
+  .partners {
+    letter-spacing: 0;
+    line-height: 30.6px;
+    margin-top: 100px;
+    min-height: 31px;
+    min-width: 92px;
+    text-align: center;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .text-14 {
+    letter-spacing: -0.96px;
+    line-height: 44.8px;
+    margin-left: 1.0px;
+    margin-top: 24px;
+    min-height: 90px;
+    min-width: 283px;
+    text-align: center;
+  }
+  
+  .logos-1 {
+    margin-top: 69px;
+    object-fit: cover;
+    width: 900px;
+
+    position: absolute;
+    height: 360.79px;
+    left: 270px;
+    /* top: 6998px; */
+  }
+  
+  .overlap-group14 {
+    height: 1419px;
+    margin-top: 71px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .text-16 {
+    left: 296px;
+    position: absolute;
+    top: 871px;
+    white-space: nowrap;
+    width: 90px;
+    height: 29px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 180%;
+    /* identical to box height, or 29px */
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    }
+  
+  .place {
+    left: 785px;
+    letter-spacing: -0.03em;
+    position: absolute;
+    top: 871px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+  }
+  
+  .text-17 {
+    left: 296px;
+    letter-spacing: -0.03em;
+    line-height: 180%;
+    position: absolute;
+    white-space: nowrap;
+
+    position: absolute;
+    width: 286px;
+    height: 29px;
+    left: 296px;
+    top: 912px;
+    /* top: 8342px; */
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* identical to box height, or 29px */
+
+    color: #FFFFFF;
+  }
+  
+  .supportlugstaycom {
+    left: 785px;
+    letter-spacing: -0.03em;
+    line-height: 180%;
+    position: absolute;
+    white-space: nowrap;
+
+    width: 155px;
+    height: 29px;
+    left: 785px;
+    top: 912px;
+    /* top: 8342px; */
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+
+    /* identical to box height, or 29px */
+    color: #FFFFFF;
+  }
+  
+  .line-11 {
+    height: 1px;
+    left: 295px;
+    position: absolute;
+    top: 859px;
+    width: 360px;
+  }
+  
+  .line-12 {
+    height: 1px;
+    left: 785px;
+    position: absolute;
+    top: 859px;
+    width: 360px;
+  }
+  
+  .text-18 {
+    left: 585px;
+    letter-spacing: -0.96px;
+    line-height: 48px;
+    position: absolute;
+    text-align: center;
+    top: 557px;
+  }
+  
+  .overlap-group {
+    align-items: flex-start;
+    border-radius: 6px;
+    display: flex;
+    height: 59px;
+    left: 728px;
+    min-width: 223px;
+    padding: 15.8px 39.0px;
+    position: absolute;
+    top: 712px;
+  }
+  
+  .overlap-group1 {
+    align-items: flex-start;
+    background-color: #777777;
+    border-radius: 6px;
+    display: flex;
+    height: 56px;
+    left: 490px;
+    min-width: 220px;
+    padding: 15px 59px;
+    position: absolute;
+    top: 713px;
+    width: 220px;
+    }
+  
+  .group-2 {
+    height: 22px;
+    left: 634px;
+    position: absolute;
+    top: 512px;
+    width: 173px;
+  }
+  
+  .mask-group-3 {
+    height: 559px;
+    left: 299px;
+    position: absolute;
+    top: 0;
+    width: 705px;
+  }
+  
+  .overlap-group9 {
+    align-items: flex-end;
+    background-color: var(--ebony-clay);
+    border-radius: 6px;
+    display: flex;
+    height: 56px;
+    justify-content: flex-end;
+    left: 1032px;
+    min-width: 220px;
+    padding: 14px 56px;
+    position: absolute;
+    top: 112px;
+
+    width: 220px;
+    /* top: 7542px; */
+
+    background: #222C3C;
+    border-radius: 6px;
+  }
+  
+  .text-36 {
+    color: #FFFFFF;
+    width: 105px;
+    height: 26px;
+    left: 1091px;
+    top: 7558px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+  }
+  
+  .text-37 {
+    color: var(--mine-shaft);
+    font-family: var(--font-family-spoqa_han_sans_neo-bold);
+    font-size: var(--font-size-xxl2);
+    font-weight: 700;
+    left: 188px;
+    letter-spacing: -0.84px;
+    line-height: 39.2px;
+    position: absolute;
+    top: 104px;
+  }
+  
+  .image-17 {
+    height: 386px;
+    left: 295px;
+    object-fit: cover;
+    position: absolute;
+    top: 1033px;
+    width: 850px;
+  }
+  
+  .image-8 {
+    height: 192px;
+    object-fit: cover;
+    width: 1064px;
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Lato:900|Noto+Sans+KR:700");
+  @font-face {
+    font-family: "Spoqa Han Sans Neo-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.animaapp.com/SpoqaHanSansNeo-Bold") format("opentype");
+  }
+  @font-face {
+    font-family: "Spoqa Han Sans Neo-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://fonts.animaapp.com/SpoqaHanSansNeo-Medium") format("opentype");
+  }
+  @font-face {
+    font-family: "Spoqa Han Sans Neo-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/SpoqaHanSansNeo-Regular") format("opentype");
+  }
+  
+  .screen a {
+    display: contents;
+    text-decoration: none;
+  }
+  
+  .container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+  }
+  
+  .container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+  }
+  
+  /* Desktop - 9
+  Type
+  Element
+  Component
+  Element Preview
+  
+  HTML Tag
+  div
+   */
+  
+
+
+  /* .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+   */
