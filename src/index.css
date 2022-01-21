@@ -1383,15 +1383,23 @@
   }
   
   .overlap-group {
-    align-items: flex-start;
-    border-radius: 6px;
-    display: flex;
-    height: 59px;
-    left: 728px;
-    min-width: 223px;
-    padding: 15.8px 39.0px;
     position: absolute;
-    top: 712px;
+    width: 142px;
+    height: 25px;
+    left: 769px;
+    top: 713px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+    
   }
   
   .overlap-group1 {
@@ -1401,11 +1409,10 @@
     padding: 15px 59px;
     top: 713px;
 
-
     position: absolute;
     width: 220px;
     height: 56px;
-    left: 490px;
+    left: 450px;
     /* top: 8143px; */
 
     background: #222C3C;
