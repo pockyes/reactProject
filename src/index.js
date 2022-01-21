@@ -244,7 +244,7 @@ class App extends React.Component {
                           </div>
                         </div>
                         <div className="overlap-group2">
-                          <div className="presslato-black-granite-gray-18px">
+                          <div className="press lato-black-granite-gray-18px">
                             PRESS
                           </div>
                           <div className="text-21 spoqahansansneo-bold-mine-shaft-32px">

@@ -378,7 +378,7 @@
   
   .text-2 {
     position: absolute;
-    width: 342px;
+    width: 350px;
     height: 117px;
     left: 40px;
     top: 30%;
@@ -392,7 +392,9 @@
     
     letter-spacing: -0.03em;
     
-    color: #FFFFFF;;
+    color: #FFFFFF;
+
+
   }
   
   .group-249 {
@@ -530,23 +532,14 @@
   }
   
   .overlap-group16 {
-    align-items: flex-start;
-    background: linear-gradient(180deg, #E3ECF4 18.5%, #A0C8E6 100%);
-    background-size: 100% 100%;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 24px;
-    min-width: 1064px;
-    padding: 22px 34px;
-
     position: absolute;
     width: 1064px;
     height: 360px;
-    /* left: 188px; */
+    left: 188px;
     top: 2950px;
-
-    border-radius: 6px;
     
+    background: linear-gradient(180deg, #E3ECF4 18.5%, #A0C8E6 100%);
+    border-radius: 6px;
   }
   
   .flex-col-2 {
@@ -559,43 +552,44 @@
   }
   
   .overlap-group6 {
-    align-items: flex-end;
-    background-color: 
-  #b0d1ea;
-    border-radius: 100px;
-    display: flex;
+    position: absolute;
+    width: 88px;
     height: 28px;
-    min-width: 88px;
-    padding: 1px 16px;
+    left: 20px;
+    top: 30px;
+    background:  #b0d1ea;
+    mix-blend-mode: normal;
+    border-radius: 100px;
   }
   
   .b2-b2-c {
-    letter-spacing: -0.54px;
-    line-height: 25.2px;
-    min-height: 25px;
-    min-width: 56px;
-    white-space: nowrap;
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    left: 23%;
+    top: 10%;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #222C3C;
+    
   }
   
   .text-31 {
     position: absolute;
-    width: 305px;
+    width: 350px;
     height: 117px;
-    left: 224px;
-    top: 3038px;
-
+    left: 40px;
+    top: 30%;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
     font-size: 28px;
     line-height: 140%;
-    /* or 39px */
-
     letter-spacing: -0.03em;
-
-    color: #222C3C;
-    letter-spacing: -0.84px;
-    line-height: 39.2px;
-    min-height: 117px;
-    font-weight: 700;
-    font-family: var(--font-family-spoqa_han_sans_neo-bold);
   }
   
   .group-241 {
@@ -641,9 +635,11 @@
   }
   
   .mask-group-2 {
-    height: 300px;
-    margin-left: 422px;
+    position: absolute;
     width: 300px;
+    height: 300px;
+    left: 720px;
+    top: 10%;
   }
   
   .overlap-group15 {
@@ -778,19 +774,15 @@
     background-color: #131A25;
     border-radius: 8px;
     display: flex;
-    height: 210px;
     justify-content: flex-end;
-    left: 188px;
-    min-width: 1064px;
-    padding: 53px 89px;
+    mix-blend-mode: normal;
+    /* min-width: 1064px; */
+    padding: 53px 89px 53px 89px;
     position: absolute;
     top: 2350px;
-
-    position: absolute;
-    width: 1064px;
-    /* top: 5754px; */
-
-    mix-blend-mode: normal;
+    /* width: 1064px;
+    height: 210px; */
+    left: 188px;
   }
   
   .group-221 {
@@ -880,20 +872,12 @@
   }
   
   .overlap-group2 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 680px;
-    padding: 74px 48px;
-    top: 2600px;
-    width: 1064px;
-
     position: absolute;
     width: 1064px;
     height: 680px;
     left: 188px;
-    /* top: 6004px; */
-
+    top: 2654px;
+    
     background: #FFFFFF;
     box-shadow: 3px 4px 10px 3px rgba(0, 0, 0, 0.07);
     border-radius: 4px;
@@ -907,6 +891,9 @@
     text-align: center;
     text-decoration: underline;
     white-space: nowrap;
+    color: #666666;
+    font-weight: 900;
+    font-size: 18px;
   }
   
   .text-21 {
