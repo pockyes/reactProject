@@ -118,7 +118,7 @@ class App extends React.Component {
                             </div>
                             <img
                               className="line-15"
-                              src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e8ae8d1b80f3096e13ab93/img/line-15-2@2x.svg"
+                              src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e8ae8d1b80f3096e13ab93/img/line-15@2x.svg"
                             />
                           </div>
                         </div>
@@ -149,7 +149,7 @@ class App extends React.Component {
                             </div>
                             <img
                               className="line-15-1"
-                              src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e8ae8d1b80f3096e13ab93/img/line-15-2@2x.svg"
+                              src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e8ae8d1b80f3096e13ab93/img/line-15@2x.svg"
                             />
                           </div>
                         </div>
@@ -177,7 +177,7 @@ class App extends React.Component {
                             </div>
                             <img
                               className="line-15-2"
-                              src="line-15-2.svg"
+                              src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e8ae8d1b80f3096e13ab93/img/line-15@2x.svg"
                             />
                           </div>
                         </div>
@@ -325,11 +325,11 @@ class App extends React.Component {
                             className="group"
                             src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e8ae8d1b80f3096e13ab93/img/group-307@3x.png"
                           />
-                          <div className="text-32spoqahansansneo-bold-tundora-22px">
+                          <div className="text-32 spoqahansansneo-bold-tundora-22px">
                             전기 킥보드 등 개인 모빌리티 <br />
                             스테이션 만들기
                           </div>
-                          <p className="text-33spoqahansansneo-regular-normal-fuscous-gray-16px">
+                          <p className="text-33 spoqahansansneo-regular-normal-fuscous-gray-16px">
                             도심 곳곳에 충전, 주차 등을 위한 모빌리티 <br />
                             스테이션을 설치할 수 있습니다.
                           </p>
@@ -407,7 +407,7 @@ class App extends React.Component {
                           className="line-12"
                           src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e8ae8d1b80f3096e13ab93/img/line-11@2x.svg"
                         />
-                        <div className="text-18spoqahansansneo-bold-white-32px">
+                        <div className="text-18 spoqahansansneo-bold-white-32px">
                           블루웨일팀과 더 많은
                           <br />
                           이야기를 나눠보세요

@@ -41,7 +41,7 @@
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    height: 9190px;
+    height: 9500px;
     overflow: hidden;
     width: 1440px;
   }
@@ -328,8 +328,7 @@
   
   .overlap-group13 {
     align-items: center;
-    /* background-image: url(rectangle-141.png); */
-    background-size: 100% 100%;
+    background-size: 100%;
     display: flex;
     justify-content: flex-end;
     margin-right: 4.0px;
@@ -337,7 +336,6 @@
     min-width: 1064px;
     padding: 0 32px;
 
-    position: absolute;
     width: 1064px;
     height: 360px;
     left: 186px;
@@ -446,7 +444,7 @@
     position: absolute;
     width: 1064px;
     height: 360px;
-    left: 188px;
+    /* left: 188px; */
     top: 2566px;
 
     border-radius: 6px;
@@ -519,7 +517,7 @@
     position: absolute;
     width: 1064px;
     height: 360px;
-    left: 188px;
+    /* left: 188px; */
     top: 2950px;
 
     border-radius: 6px;
@@ -561,9 +559,6 @@
     left: 224px;
     top: 3038px;
 
-    font-family: Spoqa Han Sans Neo;
-    font-style: normal;
-    font-weight: bold;
     font-size: 28px;
     line-height: 140%;
     /* or 39px */
@@ -571,18 +566,11 @@
     letter-spacing: -0.03em;
 
     color: #222C3C;
-    /* letter-spacing: -0.84px;
+    letter-spacing: -0.84px;
     line-height: 39.2px;
     min-height: 117px;
     font-weight: 700;
-    color: var(--ebony-clay);
     font-family: var(--font-family-spoqa_han_sans_neo-bold);
-    font-size: var(--font-size-xxl2);
-    font-weight: 700;
-    letter-spacing: -0.84px;
-    line-height: 39.2px;
-    margin-top: 24px;
-    min-height: 117px; */
   }
   
   .group-241 {
@@ -664,23 +652,35 @@
     white-space: nowrap;
     color: #666666;
     font-weight: 900;
-    font-size: 16px;
+    font-size: px;
     line-height: 170%;
     
     position: absolute;
     width: 82px;
     height: 27px;
     left: 188px;
-    /* top: 3549px; */
+    top: 98px;
 
   }
   
   .text-1 {
-    left: 188px;
-    letter-spacing: -0.64px;
-    line-height: 48px;
     position: absolute;
     top: 196px;
+
+    width: 325px;
+    height: 144px;
+    left: 188px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+    letter-spacing: -0.02em;
+
+    color: #222C3C;
   }
   
   .text-2-2 {
@@ -1004,11 +1004,17 @@
   
   .group-container {
     border-radius: 6px;
-    height: 432px;
-    left: 550px;
+    /* height: 432px; */
     position: absolute;
-    top: 1352px;
+
     width: 340px;
+    height: 430px;
+    left: 550px;
+    top: 1352px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
   }
   
   .text-container {
@@ -1049,15 +1055,19 @@
   
   .overlap-group7 {
     align-items: center;
-    background-color: var(--white);
-    border-radius: 6px;
     display: flex;
     flex-direction: column;
-    left: 914px;
     min-height: 432px;
     position: absolute;
+    
+    width: 338px;
+    height: 430px;
+    left: 914px;
     top: 1352px;
-    width: 340px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
   }
   
   .group {
@@ -1141,15 +1151,17 @@
   
   .overlap-group10 {
     align-items: center;
-    background-color: var(--white);
-    border-radius: 6px;
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
-    left: 188px;
     min-height: 432px;
     position: absolute;
+    left: 188px;
     top: 1352px;
-    width: 340px;
+    width: 338px;
+    height: 430px;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
   }
   
   .text-38 {
@@ -1181,11 +1193,34 @@
     padding: 15px 59px;
     position: absolute;
     top: 1871px;
+
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 591px;
+    top: 5275px;
+
+    background: #777777;
+    border-radius: 6px;
   }
   
   .text {
-    letter-spacing: -0.34px;
-    min-height: 25px;
+    position: absolute;
+    width: 102px;
+    height: 25px;
+    /* left: 650px;
+    top: 200px; */
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
   }
   
   .partners {
@@ -1213,7 +1248,7 @@
     height: 361px;
     object-fit: cover;
     width: 900px;
-    
+
     /* margin-top: 69px;
     object-fit: cover;
     width: 900px;
@@ -1321,11 +1356,26 @@
   
   .text-18 {
     left: 585px;
-    letter-spacing: -0.96px;
-    line-height: 48px;
+    /* letter-spacing: -0.96px; */
+    /* line-height: 48px; */
     position: absolute;
     text-align: center;
     top: 557px;
+
+    position: absolute;
+    width: 270px;
+    height: 96px;
+    /* top: 7987px; */
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
   }
   
   .overlap-group {
@@ -1372,22 +1422,16 @@
   
   .overlap-group9 {
     align-items: flex-end;
-    background-color: var(--ebony-clay);
+    background: #222C3C;
     border-radius: 6px;
     display: flex;
-    height: 56px;
+    /* height: 56px; */
     justify-content: flex-end;
     left: 1032px;
-    min-width: 220px;
     padding: 14px 56px;
     position: absolute;
     top: 112px;
-
-    width: 220px;
     /* top: 7542px; */
-
-    background: #222C3C;
-    border-radius: 6px;
   }
   
   .text-36 {
@@ -1399,24 +1443,34 @@
 
     font-family: Noto Sans KR;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 26px;
     /* identical to box height */
 
     letter-spacing: -0.02em;
+    min-height: 26px;
+    
   }
   
   .text-37 {
-    color: var(--mine-shaft);
-    font-family: var(--font-family-spoqa_han_sans_neo-bold);
-    font-size: var(--font-size-xxl2);
+    color: #333333;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-size: 28px;
     font-weight: 700;
-    left: 188px;
-    letter-spacing: -0.84px;
-    line-height: 39.2px;
+    
     position: absolute;
     top: 104px;
+    width: 447px;
+    height: 78px;
+    left: 188px;
+    /* top: 7534px; */
+
+    line-height: 140%;
+    /* or 39px */
+
+    letter-spacing: -0.03em;
   }
   
   .image-17 {
