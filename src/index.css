@@ -41,13 +41,14 @@
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    height: 9500px;
+    height: 9190px;
     overflow: hidden;
     width: 1440px;
+    position: relative;
   }
   
   .overlap-group12 {
-    height: 2038px;
+    height: 2250px;
     margin-top: -171px;
     position: relative;
     width: 1440px;
@@ -290,57 +291,48 @@
   }
   
   .business {
-    letter-spacing: 0;
-    line-height: 27.2px;
-    margin-left: 16.0px;
-    margin-top: 110px;
-    min-height: 27px;
-    min-width: 76px;
-    text-align: center;
-    text-decoration: underline;
-    white-space: nowrap;
+    position: absolute;
+    width: 76px;
+    height: 27px;
+    left: 690px;
+    top: 1977px;
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
     line-height: 170%;
-    /* or 27px */
-
     text-align: center;
     text-decoration-line: underline;
-
     color: #666666;
   }
   
   .text-4 {
-    letter-spacing: -0.96px;
-    line-height: 44.8px;
-    min-height: 90px;
-    min-width: 454px;
-    text-align: center;
-    margin-left: 16.0px;
-    margin-top: 24px;
-    font-family: "Spoqa Han Sans Neo-Bold";
+    position: absolute;
+    width: 454px;
+    height: 90px;
+    left: 501px;
+    top: 2028px;
+    
+    font-family: Spoqa Han Sans Neo;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 32px;
+    line-height: 140%;
+    /* or 45px */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #222C3C;
   }
   
   .overlap-group13 {
-    align-items: center;
-    background-size: 100%;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 4.0px;
-    margin-top: 64px;
-    min-width: 1064px;
-    padding: 0 32px;
-
+    position: absolute;
     width: 1064px;
     height: 360px;
-    left: 186px;
+    left: 187px;
     top: 2182px;
-
+    
     background: linear-gradient(90.24deg, #000E62 -0.54%, #4B37BB 42.05%);
     border-radius: 6px;
   }
@@ -354,41 +346,53 @@
   }
   
   .overlap-group3 {
-    align-items: flex-end;
-    background-color: var(--ocean-blue-pearl);
-    border-radius: 100px;
-    display: flex;
+    position: absolute;
+    width: 88px;
     height: 28px;
-    min-width: 88px;
-    padding: 1px 27px;
+    left: 20px;
+    top: 30px;
+    
+    background: #4C38BC;
+    mix-blend-mode: normal;
+    border-radius: 100px;
   }
   
   .b2-c {
-    min-height: 25px;
-    white-space: nowrap;
-
     position: absolute;
     width: 34px;
     height: 25px;
-    left: 255px;
-    top: 2220px;
-
+    left: 30%;
+    top: 10%;
+    
     font-family: Spoqa Han Sans Neo;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 140%;
     /* or 25px */
-
+    
     letter-spacing: -0.03em;
-
+    
     color: #FFFFFF;
   }
   
   .text-2 {
-    letter-spacing: -0.84px;
-    line-height: 39.2px;
-    min-height: 117px;
+    position: absolute;
+    width: 342px;
+    height: 117px;
+    left: 40px;
+    top: 30%;
+    
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 140%;
+    /* or 39px */
+    
+    letter-spacing: -0.03em;
+    
+    color: #FFFFFF;;
   }
   
   .group-249 {
@@ -402,16 +406,32 @@
   }
   
   .text-2-1 {
-    letter-spacing: -0.48px;
-    line-height: 22.4px;
-    min-height: 22px;
-    white-space: nowrap;
+    position: absolute;
+    width: 122px;
+    height: 22px;
+    left: 50px;
+    top: 300px;
+    
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    letter-spacing: -0.03em;
+    
+    color: #FFFFFF;
   }
   
   .line-15 {
-    height: 1px;
-    margin-top: 2px;
+    position: absolute;
     width: 122px;
+    height: 0px;
+    left: 45px;
+    top: 324px;
+    
+    border: 1px solid #FFFFFF;
   }
   
   .overlap-group18 {
@@ -427,26 +447,23 @@
   }
   
   .group-373 {
+    position: absolute;
     height: 52px;
     width: 146px;
+    left: 900px;
+    top: 30px;
+    
+    border-radius: 50px;
   }
   
   .overlap-group17 {
-    align-items: center;
-    background: linear-gradient(90deg, #0430A6 0%, #345EF3 79.98%);
-    background-size: 100% 100%;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 24px;
-    min-width: 1064px;
-    padding: 0 34px;
-    
     position: absolute;
     width: 1064px;
     height: 360px;
-    /* left: 188px; */
+    left: 188px;
     top: 2566px;
-
+    
+    background: linear-gradient(90deg, #0430A6 0%, #345EF3 79.98%);
     border-radius: 6px;
   }
   
@@ -459,28 +476,34 @@
   }
   
   .overlap-group5 {
-    align-items: flex-end;
-    display: flex;
-    min-width: 88px;
-    padding: 1px 26px;
-
     position: absolute;
     width: 88px;
     height: 28px;
-    left: 228px;
-    /* top: 2218px; */
-
-    background: #4C38BC;
+    left: 20px;
+    top: 30px;
+    
+    background: #2B55E4;
     mix-blend-mode: normal;
     border-radius: 100px;
   }
   
   .b2-b {
-    letter-spacing: -0.54px;
-    line-height: 25.2px;
-    min-height: 25px;
-    min-width: 35px;
-    white-space: nowrap;
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    left: 30%;
+    top: 10%;
+    
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    
+    letter-spacing: -0.03em;
+    
+    color: #FFFFFF;
   }
   
   .group-243 {
@@ -499,9 +522,11 @@
   }
   
   .mask-group-1 {
-    height: 300px;
-    margin-left: 323px;
+    position: absolute;
     width: 300px;
+    height: 300px;
+    left: 720px;
+    top: 10%;
   }
   
   .overlap-group16 {
@@ -1184,22 +1209,14 @@
   
   .overlap-group11 {
     align-items: flex-start;
-    background-color: var(--sonic-silver);
-    border-radius: 6px;
     display: flex;
-    height: 56px;
-    left: 592px;
-    min-width: 220px;
-    padding: 15px 59px;
+    /* min-width: 220px; */
+    padding: 15px 56px 10px 60px;
     position: absolute;
     top: 1871px;
-
-    position: absolute;
-    width: 220px;
-    height: 56px;
+    width: 110px;
+    height: 30px;
     left: 591px;
-    top: 5275px;
-
     background: #777777;
     border-radius: 6px;
   }
@@ -1392,17 +1409,21 @@
   
   .overlap-group1 {
     align-items: flex-start;
-    background-color: #777777;
-    border-radius: 6px;
     display: flex;
-    height: 56px;
-    left: 490px;
     min-width: 220px;
     padding: 15px 59px;
-    position: absolute;
     top: 713px;
+
+
+    position: absolute;
     width: 220px;
-    }
+    height: 56px;
+    left: 490px;
+    /* top: 8143px; */
+
+    background: #222C3C;
+    border-radius: 6px;
+        }
   
   .group-2 {
     height: 22px;
