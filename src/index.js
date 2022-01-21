@@ -7,7 +7,7 @@ class App extends React.Component {
     render() {
                 return (
                   <div className="container-center-horizontal">
-                    <div className="desktop-9screen">
+                    <div className="desktop-9 screen">
                       <div className="overlap-group12">
                         <Group150 />
                         <Rectangle1 />
@@ -88,7 +88,7 @@ class App extends React.Component {
 
                         <img
                           className="group-1"
-                          src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e8ae8d1b80f3096e13ab93/img/group-1@2x.svg"
+                          src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e917039c07effb99d6a9c1/img/group-1@2x.svg"
                         />
 
                         <div className="rectangle-201"></div>
@@ -118,7 +118,7 @@ class App extends React.Component {
                             </div>
                             <img
                               className="line-15"
-                              src="line-15.svg"
+                              src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e8ae8d1b80f3096e13ab93/img/line-15-2@2x.svg"
                             />
                           </div>
                         </div>
@@ -149,7 +149,7 @@ class App extends React.Component {
                             </div>
                             <img
                               className="line-15-1"
-                              src="line-15-1.svg"
+                              src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61e8ae8d1b80f3096e13ab93/img/line-15-2@2x.svg"
                             />
                           </div>
                         </div>

@@ -1,11 +1,11 @@
-body {
+/* body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
   }
   
   ol, ul {
     padding-left: 30px;
-  }
+  } */
 
   .group-150 {
     background-color: #222C3C;
@@ -38,7 +38,7 @@ body {
   
   .desktop-9 {
     align-items: center;
-    background-color: var(--white);
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     height: 9190px;
@@ -75,13 +75,15 @@ body {
     top: 1159px;
     white-space: nowrap;
     line-height: 170%;
+
+    min-height: 27px;
+    min-width: 107px;
   }
   
   .text-5 {
-    color: 
-  transparent;
+    color: #FFFFFF;
     font-family: var(--font-family-spoqa_han_sans_neo-bold);
-    font-size: var(--font-size-xxxl2);
+    font-size: 32px;
     font-weight: 700;
     left: 502px;
     letter-spacing: -0.64px;
@@ -89,6 +91,8 @@ body {
     position: absolute;
     text-align: center;
     top: 1210px;
+    min-height: 90px;
+    min-width: 436px;
   }
   
   .span {
@@ -96,7 +100,7 @@ body {
   }
   
   .span1 {
-    color: var(--ronchi);
+    color: #F4C247;
     letter-spacing: -0.20px;
   }
   
@@ -114,18 +118,20 @@ body {
   }
   
   .text-13 {
-    color: #FFFFFF;
+    color: #a1d1ff;
     font-family: var(--font-family-spoqa_han_sans_neo-medium);
-    font-size: 12px;
+    font-size: 24px;
     left: 503px;
     position: absolute;
     top: 503px;
     font-weight: 500;
-    letter-spacing: -0.48px;
+    letter-spacing: -2%;
     line-height: 38.4px;
     min-height: 76px;
     min-width: 436px;
     text-align: center;
+
+
   }
   
   .group-152 {
@@ -183,12 +189,12 @@ body {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    left: 219px;
-    min-height: 550px;
     padding: 47.5px 0;
     position: absolute;
     top: 1376px;
     width: 440px;
+    left: 219px;
+
   }
   
   .text_label {
@@ -325,12 +331,20 @@ body {
     /* background-image: url(rectangle-141.png); */
     background-size: 100% 100%;
     display: flex;
-    height: 360px;
     justify-content: flex-end;
     margin-right: 4.0px;
     margin-top: 64px;
     min-width: 1064px;
     padding: 0 32px;
+
+    position: absolute;
+    width: 1064px;
+    height: 360px;
+    left: 186px;
+    top: 2182px;
+
+    background: linear-gradient(90.24deg, #000E62 -0.54%, #4B37BB 42.05%);
+    border-radius: 6px;
   }
   
   .flex-col {
@@ -352,10 +366,25 @@ body {
   }
   
   .b2-c {
-    letter-spacing: -0.54px;
-    line-height: 25.2px;
     min-height: 25px;
     white-space: nowrap;
+
+    position: absolute;
+    width: 34px;
+    height: 25px;
+    left: 255px;
+    top: 2220px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
   }
   
   .text-2 {
@@ -406,14 +435,21 @@ body {
   
   .overlap-group17 {
     align-items: center;
-    /* background-image: url(rectangle-137.svg); */
+    background: linear-gradient(90deg, #0430A6 0%, #345EF3 79.98%);
     background-size: 100% 100%;
     display: flex;
-    height: 360px;
     justify-content: flex-end;
     margin-top: 24px;
     min-width: 1064px;
     padding: 0 34px;
+    
+    position: absolute;
+    width: 1064px;
+    height: 360px;
+    left: 188px;
+    top: 2566px;
+
+    border-radius: 6px;
   }
   
   .flex-col-1 {
@@ -426,13 +462,19 @@ body {
   
   .overlap-group5 {
     align-items: flex-end;
-    background-color: 
-  #2b55e4;
-    border-radius: 100px;
     display: flex;
-    height: 28px;
     min-width: 88px;
     padding: 1px 26px;
+
+    position: absolute;
+    width: 88px;
+    height: 28px;
+    left: 228px;
+    /* top: 2218px; */
+
+    background: #4C38BC;
+    mix-blend-mode: normal;
+    border-radius: 100px;
   }
   
   .b2-b {
@@ -466,14 +508,22 @@ body {
   
   .overlap-group16 {
     align-items: flex-start;
-    /* background-image: url(rectangle-139.svg); */
+    background: linear-gradient(180deg, #E3ECF4 18.5%, #A0C8E6 100%);
     background-size: 100% 100%;
     display: flex;
-    height: 360px;
     justify-content: flex-end;
     margin-top: 24px;
     min-width: 1064px;
     padding: 22px 34px;
+
+    position: absolute;
+    width: 1064px;
+    height: 360px;
+    left: 188px;
+    top: 2950px;
+
+    border-radius: 6px;
+    
   }
   
   .flex-col-2 {
@@ -585,7 +635,7 @@ body {
   
   .overlap-group15 {
     height: 3280px;
-    margin-top: 94px;
+    margin-top: 94%;
     position: relative;
     width: 1441px;
   }
@@ -616,6 +666,12 @@ body {
     font-weight: 900;
     font-size: 16px;
     line-height: 170%;
+    
+    position: absolute;
+    width: 82px;
+    height: 27px;
+    left: 188px;
+    /* top: 3549px; */
 
   }
   
@@ -1154,13 +1210,17 @@ body {
   }
   
   .logos-1 {
-    margin-top: 69px;
+    height: 361px;
+    object-fit: cover;
+    width: 900px;
+    
+    /* margin-top: 69px;
     object-fit: cover;
     width: 900px;
 
     position: absolute;
     height: 360.79px;
-    left: 270px;
+    left: 270px; */
     /* top: 6998px; */
   }
   
