@@ -308,7 +308,7 @@
   
   .text-4 {
     position: absolute;
-    width: 454px;
+    width: 554px;
     height: 90px;
     left: 501px;
     top: 2028px;
@@ -362,7 +362,7 @@
     width: 34px;
     height: 25px;
     left: 30%;
-    top: 10%;
+    top: 5%;
     
     font-family: Spoqa Han Sans Neo;
     font-style: normal;
@@ -378,7 +378,7 @@
   
   .text-2 {
     position: absolute;
-    width: 350px;
+    width: 500px;
     height: 117px;
     left: 40px;
     top: 30%;
@@ -409,7 +409,7 @@
   
   .text-2-1 {
     position: absolute;
-    width: 122px;
+    width: 200px;
     height: 22px;
     left: 50px;
     top: 300px;
@@ -419,7 +419,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
     
     letter-spacing: -0.03em;
     
@@ -427,13 +426,12 @@
   }
   
   .line-15 {
+    height: 1px;
+    margin-top: 2px;
     position: absolute;
     width: 122px;
-    height: 0px;
-    left: 45px;
+    left: 50px;
     top: 324px;
-    
-    border: 1px solid #FFFFFF;
   }
   
   .overlap-group18 {
@@ -494,7 +492,7 @@
     width: 35px;
     height: 25px;
     left: 30%;
-    top: 10%;
+    top: 5%;
     
     font-family: Spoqa Han Sans Neo;
     font-style: normal;
@@ -520,7 +518,10 @@
   .line-15-1 {
     height: 1px;
     margin-top: 2px;
-    width: 111px;
+    position: absolute;
+    width: 122px;
+    left: 50px;
+    top: 324px;
   }
   
   .mask-group-1 {
@@ -566,8 +567,8 @@
     position: absolute;
     width: 35px;
     height: 25px;
-    left: 23%;
-    top: 10%;
+    left: 20%;
+    top: 5%;
     font-family: Spoqa Han Sans Neo;
     font-style: normal;
     font-weight: bold;
@@ -603,35 +604,26 @@
   
   .text-30 {
     position: absolute;
-    width: 111px;
-    height: 21.55px;
-    left: 224px;
-    top: 3250px;
-
+    width: 200px;
+    height: 22px;
+    left: 50px;
+    top: 300px;
     font-family: Spoqa Han Sans Neo;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
-
     letter-spacing: -0.03em;
-
-    color: #222C3C;
-    /* color: var(--ebony-clay);
-    font-family: var(--font-family-spoqa_han_sans_neo-medium);
-    font-size: var(--font-size-xs);
-    font-weight: 500;
-    letter-spacing: -0.48px;
-    line-height: 22.4px;
-    min-height: 22px;
-    white-space: nowrap; */
+    color: #FFFFFF;
   }
   
   .line-15-2 {
-    height: 2px;
-    margin-top: 1px;
-    width: 110px;
+    height: 1px;
+    margin-top: 2px;
+    position: absolute;
+    width: 122px;
+    left: 50px;
+    top: 324px;
   }
   
   .mask-group-2 {
@@ -666,21 +658,19 @@
   }
   
   .solution {
-    letter-spacing: 0;
-    line-height: 27.2px;
     min-height: 27px;
     text-decoration: underline;
     white-space: nowrap;
     color: #666666;
     font-weight: 900;
-    font-size: px;
+    font-size: 16px;
     line-height: 170%;
     
     position: absolute;
     width: 82px;
     height: 27px;
     left: 188px;
-    top: 98px;
+    top: 150px;
 
   }
   
@@ -688,7 +678,7 @@
     position: absolute;
     top: 196px;
 
-    width: 325px;
+    width: 400px;
     height: 144px;
     left: 188px;
 
@@ -724,47 +714,40 @@
   }
   
   .history {
-    color: rgba(234, 234, 234, 0.5);
-    font-weight: 900;
-    left: 684px;
-    letter-spacing: 0;
-    /* line-height: 28.9px; */
     position: absolute;
-    text-decoration: underline;
-    top: 2135px;
-    white-space: nowrap;
     width: 73px;
     height: 29px;
-    /* top: 5539px; */
+    left: 684px;
+    top: 2135px;
 
     font-family: Lato;
     font-style: normal;
+    font-weight: 900;
     font-size: 17px;
     line-height: 170%;
     /* identical to box height, or 29px */
+
+    text-decoration-line: underline;
+
+    color: rgba(234, 234, 234, 0.5);
   }
   
   .text-3 {
-    left: 526px;
-    letter-spacing: -0.96px;
-    /* line-height: 44.8px; */
+    left: 500px;
     position: absolute;
     text-align: center;
     top: 2188px;
-
     width: 450px;
     height: 90px;
-    /* top: 5592px; */
 
     font-family: Spoqa Han Sans Neo;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 140%;
-    /* or 45px */
 
     text-align: center;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.06em;
 
     color: #FFFFFF;
   }
@@ -780,8 +763,7 @@
     padding: 53px 89px 53px 89px;
     position: absolute;
     top: 2350px;
-    /* width: 1064px;
-    height: 210px; */
+    height: 100px;
     left: 188px;
   }
   
@@ -789,28 +771,47 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    /* margin-left: 225px; */
     min-height: 103px;
-    width: 108px;
+    width: 176px;
   }
   
   .text-7 {
-    letter-spacing: -0.96px;
-    line-height: 67.2px;
-    margin-right: 4.0px;
-    min-height: 67px;
-    min-width: 84px;
+    /* min-height: 67px;
+    min-width: 84px; */
     text-align: center;
     white-space: nowrap;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50%;
+    /* or 67px */
+
+    letter-spacing: -0.06em;
+
+    color: #F4C247;
   }
   
   .text-6 {
     letter-spacing: -0.54px;
-    line-height: 32.4px;
-    margin-right: 4.0px;
-    margin-top: 4px;
+    /* margin-right: 4.0px;
+    margin-top: 4px; */
     min-height: 32px;
     min-width: 104px;
     white-space: nowrap;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+
+    letter-spacing: -0.06em;
+
+    color: #FFFFFF;
   }
   
   .group-222 {
@@ -823,23 +824,34 @@
   }
   
   .text-9 {
-    letter-spacing: -0.96px;
-    line-height: 67.2px;
-    margin-right: 4.0px;
-    min-height: 67px;
-    min-width: 150px;
     text-align: center;
     white-space: nowrap;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50%;
+    letter-spacing: -0.06em;
+    color: #F4C247;
   }
   
   .text-8 {
-    letter-spacing: -0.54px;
-    line-height: 32.4px;
     margin-right: 4.0px;
     margin-top: 4px;
     min-height: 32px;
-    min-width: 172px;
+    min-width: 104px;
     white-space: nowrap;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+
+    letter-spacing: -0.06em;
+
+    color: #FFFFFF;
   }
   
   .group-223 {
@@ -852,23 +864,34 @@
   }
   
   .text-11 {
-    letter-spacing: -0.96px;
-    line-height: 67.2px;
-    margin-right: 4.0px;
-    min-height: 67px;
-    min-width: 127px;
     text-align: center;
     white-space: nowrap;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50%;
+    letter-spacing: -0.06em;
+    color: #F4C247;
   }
   
   .text-10 {
-    letter-spacing: -0.54px;
-    line-height: 32.4px;
     margin-right: 4.0px;
     margin-top: 4px;
     min-height: 32px;
-    min-width: 213px;
+    min-width: 104px;
     white-space: nowrap;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+
+    letter-spacing: -0.06em;
+
+    color: #FFFFFF;
   }
   
   .overlap-group2 {
@@ -876,7 +899,7 @@
     width: 1064px;
     height: 680px;
     left: 188px;
-    top: 2654px;
+    top: 2600px;
     
     background: #FFFFFF;
     box-shadow: 3px 4px 10px 3px rgba(0, 0, 0, 0.07);
@@ -905,6 +928,25 @@
     min-width: 299px;
     text-align: center;
     white-space: nowrap;
+
+    /* position: absolute; */
+    /* width: 299px;
+    height: 45px;
+    left: 571px;
+    top: 6131px; */
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    /* line-height: 140%; */
+    /* identical to box height, or 45px */
+
+    /* text-align: center; */
+    /* letter-spacing: -0.03em; */
+
+    color: #333333;
+
   }
   
   .group-231 {
@@ -915,6 +957,12 @@
     margin-top: 76px;
     min-height: 332px;
     width: 952px;
+
+    position: absolute;
+    /* width: 936px;
+    height: 332px;
+    left: 252px;
+    top: 6252px; */
   }
   
   .flex-row-1 {
@@ -926,23 +974,50 @@
   }
   
   .gs25 {
-    letter-spacing: -0.54px;
-    line-height: 30.6px;
-    min-height: 31px;
-    min-width: 311px;
     text-align: center;
     white-space: nowrap;
+
+    width: 500px;
+    height: 31px;
+    left: 253px;
+    top: 6252px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170%;
+    /* identical to box height, or 31px */
+
+    letter-spacing: -0.03em;
+
+    color: #333333;
   }
   
   .date {
-    letter-spacing: -0.48px;
-    line-height: 27.2px;
     margin-left: 544px;
     margin-top: 2.0px;
     min-height: 27px;
     min-width: 80px;
-    text-align: center;
     white-space: nowrap;
+
+    /* position: absolute; */
+    /* width: 80px;
+    height: 27px;
+    left: 1108px; */
+    /* top: 6255px; */
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #999999;
   }
   
   .line {
@@ -1044,10 +1119,19 @@
   }
   
   .text-26 {
-    letter-spacing: -0.44px;
-    line-height: 33px;
     margin-top: 212px;
     min-height: 66px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+
+    letter-spacing: -0.02em;
+
+    color: #444444;
+    
   }
   
   .text-27 {
@@ -1055,6 +1139,18 @@
     line-height: 25.6px;
     margin-top: 12px;
     min-height: 78px;
+
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 26px */
+
+    letter-spacing: -0.06em;
+
+    color: #555555;
   }
   
   .group-306 {
@@ -1089,21 +1185,33 @@
   }
   
   .text-32 {
-    letter-spacing: -0.44px;
-    line-height: 33px;
     margin-right: 31.0px;
     margin-top: 24px;
     min-height: 66px;
     min-width: 261px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: -0.06em;
+    color: #444444;
   }
   
   .text-33 {
-    letter-spacing: -0.32px;
-    line-height: 25.6px;
     margin-right: 21.0px;
     margin-top: 12px;
     min-height: 52px;
     min-width: 271px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: -0.06em;
+    color: #555555;
   }
   
   .rectangle-114 {
@@ -1177,21 +1285,39 @@
   }
   
   .text-38 {
-    letter-spacing: -0.44px;
-    line-height: 33px;
-    margin-right: 40.0px;
+    /* margin-right: 40.0px; */
     margin-top: 24px;
     min-height: 66px;
     min-width: 252px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 33px */
+
+    letter-spacing: -0.06em;
+
+    color: #444444;
   }
   
   .text-39 {
-    letter-spacing: -0.32px;
-    line-height: 25.6px;
-    margin-right: 16.0px;
+    /* margin-right: 16.0px; */
     margin-top: 12px;
     min-height: 78px;
     min-width: 276px;
+
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 26px */
+
+    letter-spacing: -0.06em;
+
+    color: #555555;
   }
   
   .overlap-group11 {
@@ -1228,39 +1354,51 @@
   }
   
   .partners {
-    letter-spacing: 0;
-    line-height: 30.6px;
-    margin-top: 100px;
-    min-height: 31px;
-    min-width: 92px;
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 674px;
+    top: 6784px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 170%;
+    /* identical to box height, or 31px */
+    
     text-align: center;
-    text-decoration: underline;
-    white-space: nowrap;
+    text-decoration-line: underline;
+    
+    color: #666666;
   }
   
   .text-14 {
-    letter-spacing: -0.96px;
-    line-height: 44.8px;
-    margin-left: 1.0px;
-    margin-top: 24px;
-    min-height: 90px;
-    min-width: 283px;
+    position: absolute;
+    width: 500px;
+    height: 90px;
+    /* left: 579px; */
+    top: 6839px;
+    
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+    /* or 45px */
+    
     text-align: center;
+    letter-spacing: -0.06em;
+    
+    color: #333333;
   }
   
   .logos-1 {
-    height: 361px;
-    object-fit: cover;
+    /* position: absolute; */
     width: 900px;
-
-    /* margin-top: 69px;
-    object-fit: cover;
-    width: 900px;
-
-    position: absolute;
     height: 360.79px;
-    left: 270px; */
-    /* top: 6998px; */
+    left: 270px;
+    top: 6998px;
   }
   
   .overlap-group14 {
@@ -1477,7 +1615,7 @@
     
     position: absolute;
     top: 104px;
-    width: 447px;
+    width: 500px;
     height: 78px;
     left: 188px;
     /* top: 7534px; */
@@ -1485,7 +1623,7 @@
     line-height: 140%;
     /* or 39px */
 
-    letter-spacing: -0.03em;
+    letter-spacing: -0.06em;
   }
   
   .image-17 {

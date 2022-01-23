@@ -114,7 +114,7 @@ class App extends React.Component {
                           </div>
                           <div className="group-249">
                             <div className="text-2-1 spoqahansansneo-medium-white-16px">
-                              자세히 알아보기 →
+                              자세히 알아보기→
                             </div>
                             <img
                               className="line-15"
