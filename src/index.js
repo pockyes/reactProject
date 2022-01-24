@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './Layouts/Header.js';
 import './index.css';
 
 
@@ -8,7 +9,8 @@ class App extends React.Component {
                 return (
                   <div className="container-center-horizontal">
                     <div className="desktop-9 screen">
-                      <div className="overlap-group12">
+                    <Header/>
+                      {/* <div className="overlap-group12">
                         <Group150 />
                         <Rectangle1 />
                         <div className="rectangle-87"></div>
@@ -92,7 +94,7 @@ class App extends React.Component {
                         />
 
                         <div className="rectangle-201"></div>
-                      </div>
+                      </div> */}
                       <div className="business lato-black-granite-gray-16px">
                         BUSINESS
                       </div>
