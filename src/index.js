@@ -219,9 +219,9 @@ class App extends React.Component {
                         </div>
                         <div className="group-315">
                           <div className="group-221">
-                            <h1 className="text-7 spoqahansansneo-bold-ronchi-48px">
+                            <div className="text-7 spoqahansansneo-bold-ronchi-48px">
                               50+
-                            </h1>
+                            </div>
                             <div className="text-6 spoqahansansneo-bold-white-18px">
                               유휴 공간 종류
                             </div>
@@ -369,7 +369,7 @@ class App extends React.Component {
                           </p>
                         </div>
                         <div className="overlap-group11">
-                          <div className="text notosanskr-bold-white-17px">
+                          <div className="text-20 notosanskr-bold-white-17px">
                             제휴/협업 문의
                           </div>
                         </div>
@@ -413,7 +413,7 @@ class App extends React.Component {
                           이야기를 나눠보세요
                         </div>
                         <div className="overlap-group border-1-5px-white">
-                          <div className="text notosanskr-bold-white-17px">
+                          <div className="text-19 notosanskr-bold-white-17px">
                             회사소개서 받아보기
                           </div>
                         </div>
@@ -424,7 +424,7 @@ class App extends React.Component {
                         </div>
                         <img
                           className="group-2"
-                          src="group.svg"
+                          src="https://cdn.animaapp.com/projects/61e8ac41a0bdd8ea4045e986/releases/61edfc5d0b6c58ec22ee4462/img/group@1x.png"
                         />
                         <img
                           className="mask-group-3"

@@ -777,27 +777,21 @@
   }
   
   .text-7 {
-    /* min-height: 67px;
-    min-width: 84px; */
     text-align: center;
     white-space: nowrap;
-
     font-family: Spoqa Han Sans Neo;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 50%;
-    /* or 67px */
-
+    line-height: 140%;
     letter-spacing: -0.06em;
-
     color: #F4C247;
   }
   
   .text-6 {
     letter-spacing: -0.54px;
-    /* margin-right: 4.0px;
-    margin-top: 4px; */
+    margin-right: 4.0px;
+    margin-top: 4px;
     min-height: 32px;
     min-width: 104px;
     white-space: nowrap;
@@ -830,7 +824,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 50%;
+    line-height: 140%;
     letter-spacing: -0.06em;
     color: #F4C247;
   }
@@ -870,7 +864,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 50%;
+    line-height: 140%;
     letter-spacing: -0.06em;
     color: #F4C247;
   }
@@ -896,8 +890,8 @@
   
   .overlap-group2 {
     position: absolute;
-    width: 1064px;
     height: 680px;
+    width: 1064px;
     left: 188px;
     top: 2600px;
     
@@ -917,6 +911,7 @@
     color: #666666;
     font-weight: 900;
     font-size: 18px;
+    padding: 74px 505px 0px 505px;
   }
   
   .text-21 {
@@ -959,10 +954,7 @@
     width: 952px;
 
     position: absolute;
-    /* width: 936px;
-    height: 332px;
-    left: 252px;
-    top: 6252px; */
+    padding: 0px 64px 100px 64px;
   }
   
   .flex-row-1 {
@@ -974,48 +966,23 @@
   }
   
   .gs25 {
-    text-align: center;
+    letter-spacing: -0.54px;
+    line-height: 30.6px;
+    min-height: 31px;
+    min-width: 454px;
     white-space: nowrap;
-
-    width: 500px;
-    height: 31px;
-    left: 253px;
-    top: 6252px;
-
-    font-family: Spoqa Han Sans Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 170%;
-    /* identical to box height, or 31px */
-
-    letter-spacing: -0.03em;
 
     color: #333333;
   }
   
   .date {
-    margin-left: 544px;
-    margin-top: 2.0px;
+    letter-spacing: -0.48px;
+    line-height: 27.2px;
+    margin-left: 401px;
     min-height: 27px;
     min-width: 80px;
-    white-space: nowrap;
-
-    /* position: absolute; */
-    /* width: 80px;
-    height: 27px;
-    left: 1108px; */
-    /* top: 6255px; */
-
-    font-family: Spoqa Han Sans Neo;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 170%;
-    /* or 27px */
-
     text-align: center;
-    letter-spacing: -0.03em;
+    white-space: nowrap;
 
     color: #999999;
   }
@@ -1041,6 +1008,7 @@
     min-height: 31px;
     min-width: 454px;
     white-space: nowrap;
+    color: #333333;
   }
   
   .date-1 {
@@ -1051,6 +1019,7 @@
     min-width: 80px;
     text-align: center;
     white-space: nowrap;
+    color: #999999;
   }
   
   .gs25-1 {
@@ -1059,6 +1028,7 @@
     min-height: 31px;
     min-width: 417px;
     white-space: nowrap;
+    color: #333333;
   }
   
   .date-2 {
@@ -1069,6 +1039,7 @@
     min-width: 80px;
     text-align: center;
     white-space: nowrap;
+    color: #999999;
   }
   
   .text-23 {
@@ -1077,6 +1048,7 @@
     min-height: 31px;
     min-width: 418px;
     white-space: nowrap;
+    color: #333333;
   }
   
   .date-3 {
@@ -1087,6 +1059,7 @@
     min-width: 80px;
     text-align: center;
     white-space: nowrap;
+    color: #999999;
   }
   
   .group-container {
@@ -1347,7 +1320,7 @@
     font-size: 17px;
     line-height: 25px;
     /* identical to box height */
-
+    padding: 15px 59px 16px 59px;
     letter-spacing: -0.02em;
 
     color: #FFFFFF;
@@ -1360,6 +1333,8 @@
     left: 674px;
     top: 6784px;
     
+    
+
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
@@ -1399,6 +1374,7 @@
     height: 360.79px;
     left: 270px;
     top: 6998px;
+    padding: 314px 270px 0 270px;
   }
   
   .overlap-group14 {
@@ -1519,38 +1495,52 @@
     letter-spacing: -0.03em;
     color: #FFFFFF;
   }
-  
-  .overlap-group {
+
+  .text-19 {
     position: absolute;
-    width: 142px;
+    width: 150px;
     height: 25px;
-    left: 769px;
-    top: 713px;
-    
     font-family: Noto Sans KR;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
     line-height: 25px;
-    /* identical to box height */
-    
+    padding: 16px 39px 15px 39px;
     letter-spacing: -0.02em;
-    
     color: #FFFFFF;
+  }
+  
+  .text-20 {
+    position: absolute;
+    width: 102px;
+    height: 25px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+
+  .overlap-group {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    left: 730px;
+    top: 713px;
+    
+    border: 1.5px solid #FFFFFF;
+    border-radius: 6px;
     
   }
   
   .overlap-group1 {
-    align-items: flex-start;
-    display: flex;
-    min-width: 220px;
-    padding: 15px 59px;
-    top: 713px;
-
     position: absolute;
     width: 220px;
     height: 56px;
     left: 450px;
+    top: 713px;
     /* top: 8143px; */
 
     background: #222C3C;
