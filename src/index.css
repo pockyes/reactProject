@@ -258,11 +258,11 @@
   }
   
   .mask-group {
-    height: 437px;
-    left: 13px;
     position: absolute;
-    top: 0;
-    width: 553px;
+    width: 300px;
+    height: 300px;
+    left: 720px;
+    top: 10%;
   }
   
   .group-342 {
@@ -1350,7 +1350,7 @@
   
   .text-14 {
     position: absolute;
-    width: 500px;
+    width: 283px;
     height: 90px;
     /* left: 579px; */
     top: 6839px;
@@ -1366,6 +1366,8 @@
     letter-spacing: -0.06em;
     
     color: #333333;
+
+    padding: 0 579px 0 579px;
   }
   
   .logos-1 {
@@ -1626,9 +1628,11 @@
   }
   
   .image-8 {
-    height: 192px;
-    object-fit: cover;
+    position: absolute;
     width: 1064px;
+    height: 192px;
+    top: 8902px;
+    padding: 0px 188px 0 188px;
   }
   
   @import url("https://fonts.googleapis.com/css?family=Lato:900|Noto+Sans+KR:700");
@@ -1668,58 +1672,3 @@
     flex-shrink: 0;
     pointer-events: auto;
   }
-  
-  /* Desktop - 9
-  Type
-  Element
-  Component
-  Element Preview
-  
-  HTML Tag
-  div
-   */
-  
-
-
-  /* .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  
-  .status {
-    margin-bottom: 10px;
-  }
-  
-  .square {
-    background: #fff;
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
-  
-  .square:focus {
-    outline: none;
-  }
-  
-  .kbd-navigation .square:focus {
-    background: #ddd;
-  }
-  
-  .game {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .game-info {
-    margin-left: 20px;
-  }
-   */
